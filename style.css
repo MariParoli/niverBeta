@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-image: url(image/fundo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
